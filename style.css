@@ -1,0 +1,222 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-color: rgb(62, 182, 182);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+.logo {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 2rem;
+    display: flex;
+    margin-left: 40px;
+    margin-top: 10px;
+    display: inline;
+    margin: 0;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.logo:hover {
+    background-color: rgb(35, 135, 135)
+}
+
+.header-menu {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(98, 182, 182);
+    top: 0;
+    left: 0;
+    right: 0;
+    border: none;
+    z-index: 1000;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a{
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+.menu ul li a:hover {
+    background-color:rgb(35, 135, 135);
+}
+
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.sobremim {
+    margin-top: 75px;
+    font-size: larger;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+    padding-top: 75px
+}
+.sobre h1 {
+    font-size: 3rem;
+}
+
+.sobre-txt {
+    font-size: x-large;
+}
+
+.sobre-txt h1 {
+    font-size: 3rem;
+    color: rgb(0, 0, 0) ;
+}
+
+.sobre-txt p {
+    margin-top: 75px;
+    font-size: larger;
+    color: rgb(0, 0, 0);
+}
+
+.sobre-img img{
+    max-width: 500px;
+    max-height: 600px;
+    width: auto;
+    height: auto;
+    border-radius: 100px;
+}
+
+.interesses {
+    margin-top: 100px;
+    padding-top: 75px
+}
+
+.interesses h1 {
+    font-size: 3rem;
+}
+
+.interesses-txt {
+    margin-top: 75px;
+    font-size: x-large;
+}
+
+.interesses p {
+    font-size: larger;
+}
+
+.experiências {
+    margin-top: 100px;
+    padding-top: 75px
+}
+
+.experiências h1 {
+    font-size: 3rem;
+}
+
+.experiências-txt {
+    margin-top: 50px;
+    font-size: x-large;
+}
+
+.experiências ul li {
+    font-size: larger;
+}
+
+
+.projetos {
+    margin-top: 100px;
+    padding-top: 75px
+}
+
+.projetos h1{
+    font-size: 3rem;
+}
+
+.projetos ul li {
+    font-size: x-large;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.proj-img1 img {
+    max-width: 400px;
+    max-height: 350px;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.proj-img1 p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.proj-img2 img {
+    max-width: 400px;
+    max-height: 350px;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 75px;
+    border-radius: 25px;
+}
+
+.proj-img2 p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.footer {
+    padding: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: rgb(98, 182, 182);
+}
+
+.contatos {
+    text-align: center;
+    font-size: larger;
+}
+
+.contatos ul a {
+    color: black;
+    transition: background .4s;
+    margin-top: 10px;
+}
+
+.contatos ul a:hover {
+    background-color: rgb(35, 135, 135);
+}
