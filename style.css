@@ -34,3 +34,35 @@
 #menu ul li:first-child a{
     float: left;
 }
+
+
+
+
+
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: brown;
+}
+
+.textos {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between; /* verificar se vai precisar utilizar essa linha mesmo ao final do projeto */
+    align-items: center;
+}
+
+.textos ul{
+    list-style: none;
+}
+
+.conexao{
+    text-align: left;
+}
+
+.contatos{
+    text-align: center;
+}
