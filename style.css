@@ -7,10 +7,20 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* Aqui começa o CSS do header */
+
+/* Menu de Navegação */
+
+.header-menu{
+    position: fixed;
+    right: 0;
+    left: 0;
+    background-color: rgb(100, 72, 72);
+}
+
 #menu ul{
     list-style: none;
     padding: 0;
-    background-color: rgb(100, 72, 72);
     text-align: right;
 }
 
@@ -35,13 +45,159 @@
     float: left;
 }
 
+/* Aqui começa o CSS da main */
 
+/* Introdução */
 
+.main{
+    padding-top: 150px;
+    background-color: rgb(143, 78, 78);
+}
 
+/*  */
 
+.introdução{
+    display: flex;
+    align-items: center;
+}
+
+.apresentação h3{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.apresentação h1{
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+
+.apresentação span{
+    color: rgb(10, 13, 218);
+}
+
+.apresentação h2{
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+#foto-perfil{
+    width: 350px;
+}
+
+/* Sobre mim */
+
+.sobre-mim{
+    padding-top: 100px;
+    padding-left: 131.344px;
+}
+
+.sobre-mim h1{
+    font-size: 40px;
+}
+
+.sobre-mim p{
+    font-size: 20px;
+    width: 500px;
+    margin-left: 0;
+}
+
+/* Skills */
+
+.skills{
+    padding-top: 100px;
+    padding-left: 131.344px;
+}
+
+.skills h1{
+    font-size: 40px;
+}
+
+.skills p{
+    font-size: 20px;
+    width: 500px;
+    margin-left: 0;
+}
+
+#skills p span{
+    color: aliceblue;
+}
+
+/* Experiências */
+
+.experiências{
+    padding-top: 100px;
+}
+
+.experiências-textos{
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.experiências-textos ul{
+    list-style: none;
+}
+
+.experiências h1{
+    font-size: 40px;
+    padding-left: 131.344px;
+}
+
+.experiências p{
+    font-size: 20px;
+    width: 500px;
+}
+
+#experiências p span{
+    color: aliceblue;
+}
+
+#foto-empresa{
+    width: 500px;
+    border-radius: 10px;
+}
+
+/* Projetos */
+
+.projetos{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.projetos h1{
+    font-size: 40px;
+    padding-left: 131.344px;
+}
+
+.projetos p{
+    font-size: 20px;
+    width: 500px;
+}
+
+.projetos-descrições {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.projetos-descrições ul{
+    list-style: none;
+}
+
+#foto-rosa{
+    width: 500px;
+    border-radius: 20px;
+}
+
+/* Aqui termina o CSS da main */
+
+/* Aqui começa o CSS do footer */
+
+/* Rodapé */
 
 .footer{
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
