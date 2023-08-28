@@ -33,7 +33,7 @@ hr{
     right: 0;
     left: 0;
     background-color: #005663;
-    font-size: larger;
+    font-size: 1.2rem;
 }
 
 #menu ul{
@@ -47,7 +47,7 @@ hr{
 }
 
 #menu ul li a{
-    color: #ACFFFA;
+    color: rgb(255, 255, 255);
     padding: 20px;
     display: inline-block;
     text-decoration: none;
@@ -56,7 +56,7 @@ hr{
 
 #menu ul li a:hover{
     background-color: rgb(19, 161, 172);
-    color: rgb(255, 255, 255);
+    color: #ACFFFA;
 }
 
 #menu ul li:first-child a{
@@ -80,9 +80,13 @@ hr{
     padding: 100px;
 }
 
+.apresentação{
+    font-size: 1.3rem;
+}
+
 .apresentação h3{
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    /* font-size: 20px; */
 }
 
 .apresentação h1{
@@ -92,7 +96,7 @@ hr{
 
 .apresentação span{
     color: #00FFDD;
-    font-size: 25px;
+    /* font-size: 25px; */
 }
 
 .apresentação h2{
@@ -183,7 +187,12 @@ hr{
 #foto-empresa{
     width: 500px;
     border-radius: 10px;
+    transition: .4s;
 }
+
+#foto-empresa:hover {
+    transform: scale(1.1); /* aumenta a escala da imagem durante o hover */
+  }
 
 /* Projetos */
 
@@ -216,7 +225,12 @@ hr{
 #foto-rosa{
     width: 500px;
     border-radius: 20px;
+    transition: .4s;
 }
+
+#foto-rosa:hover {
+    transform: scale(1.1); /* aumenta a escala da imagem durante o hover */
+  }
 
 /* Aqui termina o CSS da main */
 
@@ -241,12 +255,32 @@ hr{
 
 .textos ul{
     list-style: none;
+    font-size: large;
 }
 
 .conexao{
     text-align: left;
 }
 
+.conexao h1{
+    margin-bottom: 10px;
+}
+
 .contatos{
     text-align: center;
+}
+
+.contatos h1{
+    margin-bottom: 5px;
+}
+
+.contatos li a{
+    color: rgb(255, 255, 255);
+    transition: .4s;
+    display: block;
+}
+
+.contatos li a:hover{
+    color: #ACFFFA;
+    transform: translateX(-12px);
 }
