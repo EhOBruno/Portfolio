@@ -220,6 +220,15 @@ hr{
     margin: 0;
 }
 
+.plus-iti a{
+    /* text-decoration: none; */
+    color: #99FFBC;
+}
+
+.plus-iti a:hover{
+    color: #00FFDD;
+}
+
 #foto-iti{
     width: 500px;
     border-radius: 10px;
