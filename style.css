@@ -161,8 +161,6 @@ hr{
 }
 
 .experiências-textos{
-    display: flex;
-    align-items: center;
     padding-left: 100px;
 }
 
@@ -177,23 +175,61 @@ hr{
 
 .experiências p{
     font-size: 20px;
-    width: 500px;
 }
 
 #experiências p span{
     color: #99FFBC;
 }
 
-#foto-empresa{
+.experiência-orc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.experiência-orc p{
+    width: 543px;
+}
+
+#foto-orc{
     width: 500px;
     border-radius: 10px;
     transition: .4s;
 }
 
-#foto-empresa:hover {
+#foto-orc:hover {
     transform: scale(1.1); /* aumenta a escala da imagem durante o hover */
   }
 
+/* .experiência-iti{ Para quando colocar outra experiência
+    margin-bottom: 100px;
+} */
+
+.descrições-iti{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.descrições-iti p{
+    width: 550px;
+}
+
+.plus-iti {
+    align-items: flex-start !important;
+    margin: 0;
+}
+
+#foto-iti{
+    width: 500px;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+#foto-iti:hover {
+    transform: scale(1.1); /* aumenta a escala da imagem durante o hover */
+}
+ 
 /* Projetos */
 
 .projetos{
@@ -213,13 +249,17 @@ hr{
 }
 
 .projetos-descrições {
-    display: flex;
-    align-items: center;
     padding-left: 100px;
 }
 
 .projetos-descrições ul{
     list-style: none;
+}
+
+.projeto-rosa{
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 100px; */
 }
 
 #foto-rosa{
@@ -231,6 +271,12 @@ hr{
 #foto-rosa:hover {
     transform: scale(1.1); /* aumenta a escala da imagem durante o hover */
   }
+
+/* .projeto-2{ CSS DE FUTUROS PROJETOS
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+} */
 
 /* Aqui termina o CSS da main */
 
