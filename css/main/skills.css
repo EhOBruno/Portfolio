@@ -1,0 +1,20 @@
+/* ------------------------------- SKILLS ------------------------------- */
+
+.skills{
+    padding: 100px;
+    padding-left: 131.344px;
+}
+
+.skills h1{
+    font-size: 40px;
+}
+
+.skills p{
+    font-size: 20px;
+    width: 500px;
+    margin-left: 0;
+}
+
+#skills p span{
+    color: #99FFBC;
+}

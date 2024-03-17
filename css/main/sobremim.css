@@ -1,0 +1,16 @@
+/* ------------------------------- SOBRE MIM ------------------------------- */
+
+.sobre-mim{
+    padding: 100px;
+    padding-left: 131.344px;
+}
+
+.sobre-mim h1{
+    font-size: 40px;
+}
+
+.sobre-mim p{
+    font-size: 20px;
+    /* width: 500px; */
+    margin-left: 0;
+}

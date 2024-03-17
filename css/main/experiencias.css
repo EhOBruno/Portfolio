@@ -1,0 +1,102 @@
+/* ------------------------------- EXPERIÊNCIAS ------------------------------- */
+
+.experiências{
+    padding-top: 100px;
+    padding-right: 100px; /* Ver se tirando esse padding fica mais bonito */
+    padding-bottom: 100px;
+}
+
+.experiências-textos{
+    padding-left: 100px;
+}
+
+.experiências-textos ul{
+    list-style: none;
+}
+
+.experiências h1{
+    font-size: 40px;
+    padding-left: 131.344px;
+}
+
+.experiências p{
+    font-size: 20px;
+}
+
+#experiências p span{
+    color: #99FFBC;
+}
+
+/* ------------------------------- INÍCIO EXPERIÊNCIA ORC'ESTRA ------------------------------- */
+
+.experiência-orc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.experiência-orc p{
+    width: 543px;
+}
+
+#foto-orc{
+    width: 500px;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+#foto-orc:hover {
+    transform: scale(1.1); /* aumenta a escala da imagem durante o hover */
+}
+
+/* ------------------------------- FIM EXPERIÊNCIA ORC'ESTRA ------------------------------- */
+
+/* ------------------------------- INÍCIO EXPERIÊNCIA ITI ------------------------------- */
+
+/* .experiência-iti{ Para quando colocar outra experiência
+    margin-bottom: 100px;
+} */
+
+.descrições-iti{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.descrições-iti p{
+    width: 550px;
+}
+
+.plus-iti {
+    align-items: flex-start !important;
+    margin: 0;
+}
+
+.plus-iti a{
+    /* text-decoration: none; */
+    color: #99FFBC;
+}
+
+.plus-iti a:hover{
+    color: #00FFDD;
+}
+
+#foto-iti{
+    width: 500px;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+#foto-iti:hover {
+    transform: scale(1.1); /* aumenta a escala da imagem durante o hover */
+}
+
+/* ------------------------------- FIM EXPERIÊNCIA ITI ------------------------------- */
+
+/* ------------------------------- INÍCIO NOVA EXPERIÊNCIA ------------------------------- */
+
+/* .experiência-X{ Para quando colocar outra experiência
+    margin-bottom: 100px;
+} */
+
+/* ------------------------------- FIM NOVA EXPERIÊNCIA ------------------------------- */
