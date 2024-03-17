@@ -35,6 +35,7 @@ hr{
     left: 0;
     background-color: #005663;
     font-size: 1.2rem;
+    z-index: 1000; /* Valor alto para garantir que o cabeçalho fique acima dos outros elementos */
 }
 
 #menu ul{
