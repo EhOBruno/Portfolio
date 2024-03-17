@@ -18,6 +18,7 @@ h2{
 
 p {
     color: #ffffff;
+    text-align: justify; /* Justifica o texto */
 }
 
 hr{
@@ -296,11 +297,12 @@ hr{
 }
 
 .projeto-capju p{
-    width: 530px;
+    width: 560px;
 }
 
 #foto-capju{
-    width: 425px;
+    margin-top: 25px;
+    width: 500px;
     border-radius: 20px;
     transition: .4s;
     background-color: white;
@@ -308,11 +310,6 @@ hr{
 
 #foto-capju:hover {
     transform: scale(1.1); /* aumenta a escala da imagem durante o hover */
-}
-
-.plus-capju {
-    /* align-items: flex-start !important; */
-    margin-left: 30px;
 }
 
 /* .projeto-2{ CSS DE FUTUROS PROJETOS
