@@ -45,7 +45,7 @@
 
 #foto-rosa:hover {
     transform: scale(1.1); /* aumenta a escala da imagem durante o hover */
-  }
+}
 
 /* ------------------------------- FIM SEU PC TANKA ------------------------------- */
 
@@ -54,8 +54,7 @@
 .projeto-capju{
     display: flex;
     align-items: center;
-    /* padding-bottom: 100px; */
-    margin-bottom: 25px;
+    margin-bottom: 100px;
 }
 
 .projeto-capju p{
@@ -75,6 +74,54 @@
 }
 
 /* ------------------------------- FIM CAPJu ------------------------------- */
+
+/* ------------------------------- INÍCIO FOGUETE ------------------------------- */
+
+.projeto-foguete{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.projeto-foguete p{
+    width: 550px;
+}
+
+#foto-foguete{
+    width: 500px;
+    border-radius: 20px;
+    transition: .4s;
+}
+
+#foto-foguete:hover {
+    transform: scale(1.1); /* aumenta a escala da imagem durante o hover */
+}
+
+/* ------------------------------- FIM FOGUETE ------------------------------- */
+
+/* ------------------------------- INÍCIO FOGUETE ------------------------------- */
+
+.projeto-bot{
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 100px; */
+}
+
+.projeto-bot p{
+    width: 550px;
+}
+
+#foto-bot{
+    width: 400px;
+    border-radius: 20px;
+    transition: .4s;
+}
+
+#foto-bot:hover {
+    transform: scale(1.1); /* aumenta a escala da imagem durante o hover */
+}
+
+/* ------------------------------- FIM FOGUETE ------------------------------- */
 
 /* ------------------------------- INÍCIO NOVO PROJETO ------------------------------- */
 
